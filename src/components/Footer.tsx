@@ -184,21 +184,21 @@ export default function Footer() {
               <li className="flex items-start space-x-2.5">
                 <MapPin className="w-5 h-5 text-orange-500 shrink-0 mt-0.5" />
                 <span>
-                  Headquarters: Plot 12, Sector-4, Dwarka, New Delhi - 110075, India
+                  Headquarters: Ward No.5,Gram Post,Sipat Ujwal Nagar,Bilaspur,Chhattisgarh,Pin Code-495555
                 </span>
               </li>
               
               <li className="flex items-center space-x-2.5">
                 <Mail className="w-5 h-5 text-orange-500 shrink-0" />
                 <a href="mailto:info@inamigos.org" className="hover:text-orange-400 transition-colors">
-                  info@inamigos.org
+                  support@inamogosfoundation.org.in
                 </a>
               </li>
 
               <li className="flex items-center space-x-2.5">
                 <Phone className="w-5 h-5 text-orange-500 shrink-0" />
                 <a href="tel:+911145672345" className="hover:text-orange-400 transition-colors">
-                  +91-11-4567-2345
+                  +91 626 730 9902
                 </a>
               </li>
 
