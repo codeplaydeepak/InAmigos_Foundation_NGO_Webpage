@@ -1,0 +1,6 @@
+{
+  "name": "InAmigos Foundation",
+  "description": "A modern, inspiring and responsive NGO awareness website for InAmigos Foundation, highlighting vision, ongoing projects, social impact, and volunteering opportunities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 100" width="100%" height="100%">
+  <!-- Base Background is transparent -->
+  <defs>
+    <!-- Drop shadow for center badge to make it pop -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-color="#000000" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- 5-Pointed Human Star (InAmigos Foundation) scaled and positioned on the left -->
+  <g transform="translate(10, 1) scale(0.53)">
+    <!-- ORANGE-RED FIGURE (Top-Left) -->
+    <!-- Head -->
+    <circle cx="70" cy="50" r="11" fill="#E85D22" />
+    <!-- Arm and Body -->
+    <path d="M 100 25 C 100 25, 84 27, 72 38 C 65 44, 55 54, 32 78 C 42 82, 58 84, 70 85 C 80 86, 88 74, 88 64 C 88 52, 94 38, 100 25 Z" fill="#E85D22" />
+    
+    <!-- BLUE FIGURE (Top-Right) -->
+    <!-- Head -->
+    <circle cx="130" cy="50" r="11" fill="#2E93D1" />
+    <!-- Arm and Body -->
+    <path d="M 100 25 C 100 25, 116 27, 128 38 C 135 44, 145 54, 168 78 C 158 82, 142 84, 130 85 C 120 86, 112 74, 112 64 C 112 52, 106 38, 100 25 Z" fill="#2E93D1" />
+
+    <!-- PURPLE/MAGENTA FIGURE (Right) -->
+    <!-- Head -->
+    <circle cx="154" cy="110" r="11" fill="#8E2E8C" />
+    <!-- Arm and Body -->
+    <path d="M 168 78 C 168 78, 158 92, 150 102 C 145 109, 142 121, 145 132 C 148 143, 140 148, 134 148 C 124 148, 112 135, 104 125 C 112 115, 124 110, 134 105 C 144 100, 156 89, 168 78 Z" fill="#8E2E8C" />
+
+    <!-- GREEN FIGURE (Bottom) -->
+    <!-- Head -->
+    <circle cx="100" cy="148" r="11" fill="#27AE60" />
+    <!-- Arm and Body -->
+    <path d="M 134 148 C 134 148, 122 153, 112 152 C 105 151, 100 138, 100 138 C 100 138, 95 151, 88 152 C 78 153, 66 148, 66 148 C 76 138, 88 128, 90 118 C 100 110, 110 118, 110 118 C 112 128, 124 138, 134 148 Z" fill="#27AE60" />
+
+    <!-- YELLOW/ORANGE FIGURE (Bottom-Left) -->
+    <!-- Head -->
+    <circle cx="46" cy="110" r="11" fill="#F1C40F" />
+    <!-- Arm and Body -->
+    <path d="M 32 78 C 32 78, 42 92, 50 102 C 55 109, 58 121, 55 132 C 52 143, 60 148, 66 148 C 76 148, 88 135, 96 125 C 88 115, 76 110, 66 105 C 56 100, 44 89, 32 78 Z" fill="#F1C40F" />
+
+    <!-- CENTER BADGE (White Starburst/Circle holding "IAF") -->
+    <circle cx="100" cy="85" r="23" fill="#FFFFFF" filter="url(#shadow)" />
+    <!-- Sunray Starburst accents -->
+    <path d="M 100 58 L 103 72 L 117 70 L 108 81 L 121 85 L 108 89 L 117 100 L 103 98 L 100 112 L 97 98 L 83 100 L 92 89 L 79 85 L 92 81 L 83 70 L 97 72 Z" fill="#FFFFFF" />
+    <circle cx="100" cy="85" r="22" fill="#FFFFFF" />
+    
+    <!-- IAF Text -->
+    <text x="100" y="91" font-family="'Inter', -apple-system, sans-serif" font-weight="900" font-size="16" fill="#111827" text-anchor="middle" letter-spacing="-0.5">IAF</text>
+  </g>
+
+  <!-- BRAND NAME TEXTS IN WHITE COLOUR -->
+  <g id="brand-text" transform="translate(115, 10)">
+    <!-- InAmigos® -->
+    <text x="0" y="32" font-family="'Inter', -apple-system, sans-serif" font-weight="900" font-size="28" fill="#FFFFFF" letter-spacing="-0.5">InAmigos®</text>
+    
+    <!-- FOUNDATION -->
+    <text x="0" y="55" font-family="'Inter', -apple-system, sans-serif" font-weight="800" font-size="11.5" fill="#FFFFFF" letter-spacing="4.5" opacity="0.9">FOUNDATION</text>
+    
+    <!-- Uniting Minds for Change -->
+    <text x="0" y="74" font-family="'Inter', -apple-system, sans-serif" font-weight="500" font-style="italic" font-size="9" fill="#FFFFFF" letter-spacing="0.5" opacity="0.8">Uniting Minds for Change</text>
+  </g>
+</svg>
